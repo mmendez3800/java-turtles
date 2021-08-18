@@ -12,6 +12,6 @@ All Java programs are able to run due to the files within the **Environment** fo
 After cloning or forking the repository, you can run any of the Java programs through the command line in the below manner:
 1. You will want to `cd` into the repository
 2. Compile the Java program you want to run while ensuring the classpath is defined as the **Environment** folder
-   - An example of this would be `javac -cp Environment/ TurtleMovement.java`
+   - An example of this would be `javac -cp Environment/ Movement.java`
 3. Run the *class* file created and enure the classpath is defined as both the **Environment** folder and the current directory
-   - An example of this would be `java -cp Environment/:. TurtleMovement`
+   - An example of this would be `java -cp Environment/:. Movement`
