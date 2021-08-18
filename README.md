@@ -2,12 +2,12 @@
 This is a compilation of Java programs using the Turtle class to practice and understand the Java language
 
 ## Technologies
-In order to run any of the programs in this project, you will need the following:
+The programs in this project were run using the following:
 * Java 11
 * X11
 
 ## Setup
-All Java programs are able to run using the files within the **Environment** folder. This means you will want to ensure that no changes are made to the folder or its contents. Otherwise, you may not be able to run any of the Turtle programs.
+All Java programs are able to run due to the files within the **Environment** folder. This means you will want to ensure that no changes are made to the folder or its contents. Otherwise, you may not be able to run any of the Turtle programs.
 
 After cloning or forking the repository, you can run any of the Java programs through the command line in the below manner:
 1. You will want to `cd` into the repository
