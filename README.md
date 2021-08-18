@@ -1,5 +1,5 @@
 # Java Turtles
-This is a compilation of Java programs using the Turtle class to practice and understand the Java language
+This is a compilation of programs using the Turtle class to practice and understand the Java language
 
 ## Technologies
 The programs in this project were run using the following:
