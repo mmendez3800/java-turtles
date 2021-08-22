@@ -3,9 +3,6 @@
  * Class that represents a sample of a sound.  It knows what sound object
  * it comes from and knows what frame number this sample is in the sound
  * object.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class SoundSample
 {

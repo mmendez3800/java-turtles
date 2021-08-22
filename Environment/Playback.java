@@ -6,10 +6,6 @@ import java.io.*;
  * and allows for playback of a simple sound.  The thread doesn't die until
  * the sound is finished playing, however it is not blocking either.  It
  * will simply play the sound in the "background."
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author unknown undergrad
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class Playback extends Thread
 {

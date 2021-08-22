@@ -11,10 +11,6 @@ import java.awt.geom.*;
  * of the sound samples and play all or part of a sound.  You can zoom in to see
  * all the samples in the sound or zoom out to see the entire sound.  You
  * can click on the sound wave to see the value at that index.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Keith McDermottt, gte047w@cc.gatech.edu
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class SoundExplorer implements MouseMotionListener, ActionListener, 
   MouseListener, LineListener

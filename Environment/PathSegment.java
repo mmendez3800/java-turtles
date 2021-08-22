@@ -4,8 +4,6 @@ import java.awt.geom.*;
 /**
  * This class represents a displayable path segment
  * it has a color, width, and a Line2D object
- * Copyright Georgia Institute of Technology 2005
- * @author Barb Ericson ericson@cc.gatech.edu
  */ 
 public class PathSegment
 {

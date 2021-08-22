@@ -4,24 +4,17 @@ import java.util.Vector;
 import javazoom.jl.converter.*;
 
 /**
- * The <code>SimpleSound</code> class is an implementation of the 
+ * The SimpleSound class is an implementation of the 
  * Java Sound API specifically designed for use with students.
  * http://java.sun.com/products/java-media/sound/index.html
- * <p>
+ * 
  * This class allows for easy playback, and manipulation of AU, 
  * AIFF, and WAV files.
- * <p>
  *
  * Code & ideas for this class related to playing and 
  * viewing the sound were borrowed from the Java Sound Demo:
  * http://java.sun.com/products/java-media/sound/
  * samples/JavaSoundDemo/
- *
- * Also, some code borrowed from Tritonus as noted.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Ellie Harmon, ellie@cc.gatech.edu
- * @author Barbara Ericson ericson@mindspring.com
  */
 public class SimpleSound{
   

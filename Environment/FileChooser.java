@@ -8,9 +8,6 @@ import java.net.*;
  * A class to make working with a file chooser easier
  * for students.  It uses a JFileChooser to let the user
  * pick a file and returns the choosen file name.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class FileChooser 
 {

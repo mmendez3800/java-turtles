@@ -9,9 +9,6 @@ import java.util.Iterator;
  * Class to represent a pen which has a color, width, 
  * and a list of path segments that it should draw.  
  * A pen also knows if it is up or down 
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class Pen 
 {

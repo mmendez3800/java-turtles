@@ -5,9 +5,6 @@ import java.awt.*;
  * Class that represents a turtle which is similar to a Logo turtle.
  * This class inherts from SimpleTurtle and is for students
  * to add methods to.
- *
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class Turtle extends SimpleTurtle
 {
@@ -125,6 +122,39 @@ public class Turtle extends SimpleTurtle
     this.turnRight();
     this.forward(size);
     this.turnRight();
+    }
+  }
+
+  /*
+   * Method to MOVE the turtle to the Cell with coordinates x,y
+   */
+  public void moveToCell(Cell aCell)
+  {
+    this.moveTo(aCell.getX()*40+20, aCell.getY()*40+20);
+  }
+
+  /*
+   * Method to turn the turtle to FACE Cell with coordinates x,y
+   */
+  public void turnToFaceCell(Cell aCell)
+  {
+    // we compute the direction where we want the turtle to face
+    this.turnToFace(aCell.getX()*40+20, aCell.getY()*40+20);
+  }
+
+  /*
+   * Method that makes the turtle follow a given path
+   */
+  public void followPath(Cell[] path)
+  {
+    boolean pathCompleted = true;
+    Scanner reader = new Scanner(System.in);
+    String anykey;
+
+    for (int nC=0; nC<path.length; nC++)
+    {
+      this.turnToFaceCell(path[nC]);
+      this.moveToCell(path[nC]);
     }
   }
   

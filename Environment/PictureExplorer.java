@@ -9,13 +9,6 @@ import javax.swing.border.*;
  * green, and blue values of the pixel at the cursor when you click a mouse button or
  * press and hold a mouse button while moving the cursor.  It also lets you zoom in or
  * out.  You can also type in a x and y value to see the color at that location.
- * 
- * Originally created for the Jython Environment for Students (JES). 
- * Modified to work with DrJava by Barbara Ericson
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Keith McDermottt, gte047w@cc.gatech.edu
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class PictureExplorer implements MouseMotionListener, ActionListener, MouseListener
 {

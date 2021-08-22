@@ -3,9 +3,6 @@ import java.awt.*;
 
 /**
  * Class that holds a digital picture and displays it.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson 
  */
 public class PictureFrame
 {

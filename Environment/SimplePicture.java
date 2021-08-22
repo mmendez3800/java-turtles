@@ -11,9 +11,6 @@ import java.awt.geom.*;
  * width, and height.  A simple picture uses a BufferedImage to 
  * hold the pixels.  You can show a simple picture in a 
  * PictureFrame (a JFrame).
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class SimplePicture implements DigitalPicture
 {

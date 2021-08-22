@@ -16,9 +16,6 @@ import java.util.Random;
  * 
  * You can display this turtle in either a picture or in
  * a class that implements ModelDisplay.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class SimpleTurtle
 {

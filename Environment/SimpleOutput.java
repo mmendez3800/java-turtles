@@ -4,9 +4,6 @@ import java.text.*;
 /**
  * Class to make it easy to do output to the user
  * using JOptionPane
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class SimpleOutput
 {

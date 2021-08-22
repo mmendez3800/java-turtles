@@ -8,9 +8,6 @@ import java.awt.*;
 /**
  * Class to represent a 2d world that can hold turtles and
  * display them
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class World extends JComponent implements ModelDisplay
 {
@@ -110,6 +107,12 @@ public class World extends JComponent implements ModelDisplay
    * Method to clear the background picture
    */
   public void clearBackground() { picture = new Picture(width,height); }
+
+  /**
+   * Method to get the background frame
+   * @return the background frame
+   */
+  public JFrame getFrame() { return frame; }
   
   /**
    * Method to get the background picture

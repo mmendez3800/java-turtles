@@ -5,9 +5,6 @@ import java.awt.Color;
  * location in a picture.  A pixel knows how to get and set the red, 
  * green, blue, and alpha values in the picture.  A pixel also knows
  * how to get and set the color using a Color object.
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public class Pixel
 {

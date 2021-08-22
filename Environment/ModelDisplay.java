@@ -3,9 +3,6 @@ import java.awt.Graphics;
 /**
  * Interface to used to communicate between a model
  * and its display
- * 
- * Copyright Georgia Institute of Technology 2004
- * @author Barb Ericson ericson@cc.gatech.edu
  */
 public interface ModelDisplay
 {
