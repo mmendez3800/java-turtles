@@ -15,3 +15,10 @@ After cloning or forking the repository, you can run any of the Java programs th
    - An example of this would be `javac -cp Environment/ Movement.java`
 3. Run the *class* file created and enure the classpath is defined as both the **Environment** folder and the current directory
    - An example of this would be `java -cp Environment/:. Movement`
+
+## Output
+![Output of Create Shapes program](images/java_turtles_1.png)
+
+![Output of Draw Name program](images/java_turtles_2.png)
+
+![Output of Recursion program](images/java_turtles_3.png)
